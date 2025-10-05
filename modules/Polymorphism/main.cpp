@@ -17,11 +17,11 @@ public:
     }
 };
 
-class Cycle : public Shape
+class Circle : public Shape
 {
     void name() override
     {
-        std::println("Cycle");
+        std::println("Circle");
     }
 };
 
@@ -35,7 +35,7 @@ class Square : public Shape
 
 int main()
 {
-    std::vector<Shape *> v = {new Cycle, new Square};
+    std::vector<Shape *> v = {new Circle, new Square};
 
     for (auto shape : v)
     {

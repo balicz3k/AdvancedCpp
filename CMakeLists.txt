@@ -29,3 +29,6 @@ endif()
 
 add_subdirectory(modules/Polymorphism)
 
+# SmartPointers module (detailed demos of unique_ptr / shared_ptr / weak_ptr)
+add_subdirectory(modules/SmartPointers)
+
