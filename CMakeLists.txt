@@ -30,4 +30,5 @@ endif()
 add_subdirectory(modules/Polymorphism)
 add_subdirectory(modules/SmartPointers)
 add_subdirectory(modules/Multithreading)
+add_subdirectory(modules/Coroutines)
 
